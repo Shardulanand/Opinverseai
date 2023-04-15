@@ -1,0 +1,40 @@
+from django.urls import path
+from apps.views import *
+app_name = "apps"
+
+
+urlpatterns = [
+    path('',mylogin,name="myloginurls"),
+    path('errorHandle404/',errorHandle404,name="errorHandle404urls"),
+    path('base12121334556677/',base,name="baseurls"),
+    path('logout/',mylogout,name='mylogouturl'),
+    path('index/',index, name="Myindex"),
+    path('userprofile/',userprofile, name="profileurls"),
+    path('User_Subscription/',User_Subscription, name="Subscriptionurls"),
+    path('Profile_setting/',Profile_setting, name="Profilesettingurls"),
+    path('User_Kyc/',User_Kyc, name="User_Kycurls"),
+    path('Success_login/',Success_login, name="Success_loginurls"),
+    path('calender_dima/',calender_dima, name="calender_dimaurls"),
+    path('activites/',activites, name="activitesurls"),
+    path('qualifications/',qualifications, name="qualificationsurls"),
+    path('documents/',documents, name="documentsurls"),
+    path('billingpayment/',billingpayment, name="billingpaymenturls"),
+    path('wallet_dashboard/',wallet_dashboard, name="wallet_dashboardurls"),
+    path('wallet_history/',wallet_history, name="wallet_historyurls"),
+    path('client_all/',client_all, name="client_allurls"),
+    path('client_new/',client_new, name="client_newurls"),
+    path('client_previous/',client_previous, name="client_previousurls"),
+    path('client_feedback/',client_feedback, name="client_feedbackurls"),
+    path('CRM_Contacts/',CRM_Contacts, name="CRM_Contactsurls"),
+    path('CRM_companies/',CRM_companies, name="CRM_companiesurls"),
+    path('CRM_deals/',CRM_deals, name="CRM_dealsurls"),
+    path('CRM_leads/',CRM_leads, name="CRM_leadsurls"),
+    path('task/',task, name="taskurls"),
+    path('brands/',brands, name="brandsurls"),
+    path('projects/',projects, name="projectsurls"),
+    path('team/',team, name="teamurls"),
+    path('supportticket_create/',supportticket_create, name="supportticket_createurls"),
+    path('supportticket_details/',supportticket_details, name="supportticket_detailsurls"),
+    path('supportticket_history/',supportticket_history, name="supportticket_historyurls"),
+    path('tutorials_courses/',tutorials_courses, name="tutorials_courses"),
+]

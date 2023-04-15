@@ -1,0 +1,546 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+{% block content %}
+<div class="main-content">
+
+    <div class="page-content">
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Wallet Dashboard</h4>
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dima</a></li>
+                                <li class="breadcrumb-item active">Wallet</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card crm-widget">
+                        <div class="card-body p-0">
+                            <div class="row row-cols-md-3 row-cols-1">
+                                <div class="col col-lg border-end">
+                                    <div class="py-4 px-3">
+                                        <h5 class="text-muted text-uppercase fs-13">Campaign Sent <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i>
+                                        </h5>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <i class="ri-space-ship-line display-6 text-muted"></i>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h2 class="mb-0"><span class="counter-value" data-target="197">0</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end col -->
+                                <div class="col col-lg border-end">
+                                    <div class="mt-3 mt-md-0 py-4 px-3">
+                                        <h5 class="text-muted text-uppercase fs-13">Annual Profit <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i></h5>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <i class="ri-exchange-dollar-line display-6 text-muted"></i>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h2 class="mb-0">$<span class="counter-value" data-target="489.4">0</span>k</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end col -->
+                                <div class="col col-lg border-end">
+                                    <div class="mt-3 mt-md-0 py-4 px-3">
+                                        <h5 class="text-muted text-uppercase fs-13">
+                                            Lead Coversation <i class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i>
+                                        </h5>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <i class="ri-pulse-line display-6 text-muted"></i>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h2 class="mb-0"><span class="counter-value" data-target="32.89">0</span>%</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end col -->
+                                <div class="col col-lg border-end">
+                                    <div class="mt-3 mt-lg-0 py-4 px-3">
+                                        <h5 class="text-muted text-uppercase fs-13">
+                                            Daily Average Income <i class="ri-arrow-up-circle-line text-success fs-18 float-end align-middle"></i>
+                                        </h5>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <i class="ri-trophy-line display-6 text-muted"></i>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h2 class="mb-0">$<span class="counter-value" data-target="1596.5">0</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end col -->
+                                <div class="col col-lg">
+                                    <div class="mt-3 mt-lg-0 py-4 px-3">
+                                        <h5 class="text-muted text-uppercase fs-13">
+                                            Annual Deals <i class="ri-arrow-down-circle-line text-danger fs-18 float-end align-middle"></i>
+                                        </h5>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <i class="ri-service-line display-6 text-muted"></i>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h2 class="mb-0"><span class="counter-value" data-target="2659">0</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </div><!-- end card body -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                    <!-- card -->
+                    <div class="card card-animate">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1">
+                                    <p class="text-uppercase fw-medium text-muted mb-0">Total Earnings</p>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <h5 class="text-success fs-14 mb-0">
+                                        <i class="ri-arrow-right-up-line fs-13 align-middle"></i> +16.24 %
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-end justify-content-between mt-4">
+                                <div>
+                                    <h4 class="fs-22 fw-semibold ff-secondary mb-4">$<span class="counter-value" data-target="559.25">0</span>k</h4>
+                                    <a href="" class="text-decoration-underline">View net earnings</a>
+                                </div>
+                                <div class="avatar-sm flex-shrink-0">
+                                    <span class="avatar-title bg-soft-success rounded fs-3">
+                                        <i class="bx bx-dollar-circle text-success"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!-- end card body -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+
+                <div class="col-xl-3 col-md-6">
+                    <!-- card -->
+                    <div class="card card-animate bg-info">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1">
+                                    <p class="text-uppercase fw-medium text-white-50 mb-0">Orders</p>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <h5 class="text-warning fs-14 mb-0">
+                                        <i class="ri-arrow-right-down-line fs-13 align-middle"></i> -3.57 %
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-end justify-content-between mt-4">
+                                <div>
+                                    <h4 class="fs-22 fw-semibold ff-secondary mb-4 text-white"><span class="counter-value" data-target="36894">0</span></h4>
+                                    <a href="" class="text-decoration-underline text-white-50">View all orders</a>
+                                </div>
+                                <div class="avatar-sm flex-shrink-0">
+                                    <span class="avatar-title bg-soft-light rounded fs-3">
+                                        <i class="bx bx-shopping-bag text-white"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!-- end card body -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+
+                <div class="col-xl-3 col-md-6">
+                    <!-- card -->
+                    <div class="card card-animate">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1">
+                                    <p class="text-uppercase fw-medium text-muted mb-0">Customers</p>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <h5 class="text-success fs-14 mb-0">
+                                        <i class="ri-arrow-right-up-line fs-13 align-middle"></i> +29.08 %
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-end justify-content-between mt-4">
+                                <div>
+                                    <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value" data-target="183.35">0</span>M</h4>
+                                    <a href="" class="text-decoration-underline">See details</a>
+                                </div>
+                                <div class="avatar-sm flex-shrink-0">
+                                    <span class="avatar-title bg-soft-warning rounded fs-3">
+                                        <i class="bx bx-user-circle text-warning"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!-- end card body -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+
+                <div class="col-xl-3 col-md-6">
+                    <!-- card -->
+                    <div class="card card-animate">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1">
+                                    <p class="text-uppercase fw-medium text-muted mb-0">My Balance</p>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <h5 class="text-muted fs-14 mb-0">
+                                        +0.00 %
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-end justify-content-between mt-4">
+                                <div>
+                                    <h4 class="fs-22 fw-semibold ff-secondary mb-4">$<span class="counter-value" data-target="165.89">0</span>k</h4>
+                                    <a href="" class="text-decoration-underline">Withdraw money</a>
+                                </div>
+                                <div class="avatar-sm flex-shrink-0">
+                                    <span class="avatar-title bg-soft-primary rounded fs-3">
+                                        <i class="bx bx-wallet text-primary"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div><!-- end card body -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+            </div> <!-- end row-->
+            <!-- end table responsive -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">Recent Refferals</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class='table-responsive'>
+                            <table id="alternative-pagination" class="table nowrap dt-responsive align-middle table-hover table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>User ID</th>
+                                        <th>Levels</th>
+                                        <th>name</th>
+                                        <th>Package</th>
+                                        <th>Referrer</th>
+                                        <th>Amount</th>
+                                        <th>date</th>
+                                        <th>Status %</th>
+                                        <th>Group Invite</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/btc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Bitcoin (BTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$47,071.60</td>
+                                        <td>BTC/USD</td>
+                                        <td>$28,722.76</td>
+                                        <td>$68,789.63</td>
+                                        <td>$888,411,910</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.50%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/eth.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Ethereum (ETH)</a>
+                                            </div>
+                                        </td>
+                                        <td>$3,813.14</td>
+                                        <td>ETH/USDT</td>
+                                        <td>$4,036.24</td>
+                                        <td>$3,588.14</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-danger fs-13 mb-0"><i class="mdi mdi-trending-down align-middle me-1"></i>0.42%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/ltc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Litecoin (LTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$149.65</td>
+                                        <td>LTC/USDT</td>
+                                        <td>$412.96</td>
+                                        <td>$104.33</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>0.89%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/xmr.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Monero (XMR)</a>
+                                            </div>
+                                        </td>
+                                        <td>$17,491.16</td>
+                                        <td>XRM/USDT</td>
+                                        <td>$31,578.35</td>
+                                        <td>$8691.75</td>
+                                        <td>$9,847,327</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.92%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">Digital Marketing Income</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class='table-responsive'>
+                            <table id="alternative-pagination" class="table nowrap dt-responsive align-middle table-hover table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Project</th>
+                                        <th>Task</th>
+                                        <th>OV Cash</th>
+                                        <th>Client</th>
+                                        <th>Campaign Team</th>
+                                        <th>Due date</th>
+                                        <th>Status</th>
+                                        <th>Priority</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/btc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Bitcoin (BTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$47,071.60</td>
+                                        <td>BTC/USD</td>
+                                        <td>$28,722.76</td>
+                                        <td>$68,789.63</td>
+                                        <td>$888,411,910</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.50%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/eth.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Ethereum (ETH)</a>
+                                            </div>
+                                        </td>
+                                        <td>$3,813.14</td>
+                                        <td>ETH/USDT</td>
+                                        <td>$4,036.24</td>
+                                        <td>$3,588.14</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-danger fs-13 mb-0"><i class="mdi mdi-trending-down align-middle me-1"></i>0.42%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/ltc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Litecoin (LTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$149.65</td>
+                                        <td>LTC/USDT</td>
+                                        <td>$412.96</td>
+                                        <td>$104.33</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>0.89%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/xmr.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Monero (XMR)</a>
+                                            </div>
+                                        </td>
+                                        <td>$17,491.16</td>
+                                        <td>XRM/USDT</td>
+                                        <td>$31,578.35</td>
+                                        <td>$8691.75</td>
+                                        <td>$9,847,327</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.92%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">All Transaction</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class='table-responsive'>
+                            <table id="alternative-pagination" class="table nowrap dt-responsive align-middle table-hover table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Timestamp</th>
+                                        <th>Currency</th>
+                                        <th>From</th>
+                                        <th>To</th>
+                                        <th>Details</th>
+                                        <th>Transaction ID</th>
+                                        <th>Type</th>
+                                        <th>Amount</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/btc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Bitcoin (BTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$47,071.60</td>
+                                        <td>BTC/USD</td>
+                                        <td>$28,722.76</td>
+                                        <td>$68,789.63</td>
+                                        <td>$888,411,910</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.50%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/eth.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Ethereum (ETH)</a>
+                                            </div>
+                                        </td>
+                                        <td>$3,813.14</td>
+                                        <td>ETH/USDT</td>
+                                        <td>$4,036.24</td>
+                                        <td>$3,588.14</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-danger fs-13 mb-0"><i class="mdi mdi-trending-down align-middle me-1"></i>0.42%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/ltc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Litecoin (LTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$149.65</td>
+                                        <td>LTC/USDT</td>
+                                        <td>$412.96</td>
+                                        <td>$104.33</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>0.89%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/xmr.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Monero (XMR)</a>
+                                            </div>
+                                        </td>
+                                        <td>$17,491.16</td>
+                                        <td>XRM/USDT</td>
+                                        <td>$31,578.35</td>
+                                        <td>$8691.75</td>
+                                        <td>$9,847,327</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.92%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">Trade Now</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div> 
+        </div>
+{% endblock content %}
+{% endblock body %}

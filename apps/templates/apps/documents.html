@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+{% block content %}
+<div class="main-content">
+    <div class="page-content">
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Documents</h4>
+
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dima</a></li>
+                                <li class="breadcrumb-item active">Documents</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+            <table class="table table-secondary table-striped align-middle table-nowrap mb-0">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">FIle Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Upload Date</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Corporate Plan</td>
+                        <td>Nov 22, 2021</td>
+                        <td><i class="ri-checkbox-circle-line align-middle text-success"></i> Subscribed</td>
+                        <td>
+                            <div class="hstack gap-3 flex-wrap">
+                                <a href="javascript:void(0);" class="link-success fs-15"><i class="ri-edit-2-line"></i></a>
+                                <a href="javascript:void(0);" class="link-danger fs-15"><i class="ri-delete-bin-line"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+{% endblock content %}
+{% endblock body %}
+
+
+

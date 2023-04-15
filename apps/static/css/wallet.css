@@ -1,0 +1,360 @@
+.head{
+    width: 300px;
+    height: 50px;
+    margin-left: 270px;
+    margin-top: 100px;
+}
+.head h4{
+    font-size: 25px;
+    margin-top: 25px;
+}
+/* --------------------------------------------------FLEX1 */
+.flex{
+    margin-left: 270px;
+    margin-top: 10px;
+    width: 380px;
+    height: 190px;
+    background-color: white;
+}
+.flex h1{
+    margin-left: 0px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+.flex i{
+    color: green;
+}
+.flex h2{
+    font-size: 50px;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.flex h2 i{
+    color: grey;
+}
+/* ------------------------------------------FLEX2  */
+.flex2{
+    margin-top: -190px;
+    margin-left: 660px;
+    width: 380px;
+    height: 190px;
+    background-color: white;
+}
+.flex2 h1{
+    margin-left: 0px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+.flex2 i{
+    color: red;
+}
+.flex2 h2{
+    font-size: 50px;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.flex2 h2 i{
+    color: grey;
+}
+/* ---------------------------------------------FLEX3 */
+.flex3{
+    margin-top: -190px;
+    margin-left: 1050px;
+    width: 380px;
+    height: 190px;
+    background-color: white;
+}
+.flex3 h1{
+    margin-left: 0px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+.flex3 i{
+    color: green;
+}
+.flex3 h2{
+    font-size: 50px;
+    margin-top: -90px;
+    margin-left:15px;
+}
+.flex3 h2 i{
+    color: grey;
+}
+/* --------------------------->>>MIDFLEX */
+.medflex{
+    width: 280px;
+    height: 120px;
+    background-color: white;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+.medflex p{
+    font-size: 18px;
+}
+.medflex p i{
+    color: lightgreen;
+}
+/* ----------------------------------Midflex2 */
+.medflex2{
+    width: 280px;
+    height: 120px;
+    background-color: white;
+    margin-left: 560px;
+    margin-top: -120px;
+}
+.medflex2 p{
+    font-size: 18px;
+}
+.medflex2 p i{
+    color: darkblue;
+}
+/* ----------------------------------Midflex3 */
+
+.medflex3{
+    width: 280px;
+    height: 120px;
+    background-color: white;
+    margin-left: 850px;
+    margin-top: -120px;
+}
+.medflex3 p{
+    font-size: 18px;
+}
+.medflex3 p i{
+    color: darkblue;
+}
+.medflex3 h3{
+    font-size: 30px;
+    margin-left: 180px;
+    margin-top: -40px;
+}
+/* ----------------------------------Midflex3 */
+
+.medflex4{
+    width: 290px;
+    height: 120px;
+    background-color: white;
+    margin-left: 1140px;
+    margin-top: -120px;
+}
+.medflex4 p{
+    font-size: 18px;
+}
+.medflex4 p i{
+    color: darkblue;
+}
+.revenuetable{
+    width: 1160px;
+    /* height: 300px; */
+    margin-left: 270px;
+    margin-top: 20px;
+    background-color: white;
+}
+.revenuetable h4{
+    margin-left: 900px;
+    margin-top: -20px;
+}
+.Digitalmarketing{
+    width: 1160px;
+    /* height: 300px; */
+    margin-left: 270px;
+    background-color: white;
+}
+.Digitalmarketing h4{
+    margin-left: 900px;
+    margin-top: -20px;
+}
+.input11{
+    width: 380px;
+    margin-left: 15px;
+}
+.input22{
+    width: 200px;
+    margin-left: 15px;
+}
+.alltransaction{
+    width: 1160px;
+    /* height: 300px; */
+    margin-left: 270px;
+    background-color: white;
+}
+
+/* ----------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(max-width:458px){
+    .head{
+        margin-left: 10px;
+    }
+    .head h4{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    /* --------------------------------------------------FLEX1 */
+    .flex{
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 350px;
+        height: 130px;
+        background-color: white;
+    }
+    .flex h1{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .flex i{
+        color: green;
+    }
+    .flex h2{
+        font-size: 25px;
+        margin-top: -120px;
+        margin-left: 10px;
+    }
+    .flex h2 i{
+        color: grey;
+    }
+    /* ------------------------------------------FLEX2  */
+    .flex2{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 350px;
+        height: 130px;
+        background-color: white;
+    }
+    .flex2 h1{
+        margin-left: 0px;
+        margin-bottom: 150px;
+        font-size: 20px;
+    }
+    .flex2 i{
+        color: red;
+    }
+    .flex2 h2{
+        font-size: 25px;
+        margin-top: -90px;
+        margin-left: 10px;
+    }
+    .flex2 h2 i{
+        color: grey;
+    }
+    /* ---------------------------------------------FLEX3 */
+    .flex3{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 350px;
+        height: 130px;
+        background-color: white;
+    }
+    .flex3 h1{
+        margin-left: 0px;
+        margin-bottom: 150px;
+        font-size: 20px;
+    }
+    .flex3 i{
+        color: green;
+    }
+    .flex3 h2{
+        font-size: 25px;
+        margin-top: -90px;
+        margin-left:15px;
+    }
+    .flex3 h2 i{
+        color: grey;
+    }
+    /* --------------------------->>>MIDFLEX */
+    .medflex{
+        width: 160px;
+        height: 120px;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .medflex p{
+        font-size: 12px;
+    }
+    .medflex p i{
+        color: lightgreen;
+    }
+    /* ----------------------------------Midflex2 */
+    .medflex2{
+        width: 160px;
+        height: 120px;
+        background-color: white;
+        margin-left: 180px;
+        margin-top: -120px;
+    }
+    .medflex2 p{
+        font-size: 12px;
+    }
+    .medflex2 p i{
+        color: darkblue;
+    }
+    /* ----------------------------------Midflex3 */
+    
+    .medflex3{
+        width: 280px;
+        height: 120px;
+        background-color: white;
+        margin-left: 850px;
+        margin-top: -120px;
+    }
+    .medflex3 p{
+        font-size: 18px;
+    }
+    .medflex3 p i{
+        color: darkblue;
+    }
+    .medflex3 h3{
+        font-size: 30px;
+        margin-left: 180px;
+        margin-top: -40px;
+    }
+    /* ----------------------------------Midflex3 */
+    
+    .medflex4{
+        width: 290px;
+        height: 120px;
+        background-color: white;
+        margin-left: 1140px;
+        margin-top: -120px;
+    }
+    .medflex4 p{
+        font-size: 18px;
+    }
+    .medflex4 p i{
+        color: darkblue;
+    }
+    .revenuetable{
+        width: 1160px;
+        /* height: 300px; */
+        margin-left: 270px;
+        margin-top: 20px;
+        background-color: white;
+    }
+    .revenuetable h4{
+        margin-left: 900px;
+        margin-top: -20px;
+    }
+    .Digitalmarketing{
+        width: 1160px;
+        /* height: 300px; */
+        margin-left: 270px;
+        background-color: white;
+    }
+    .Digitalmarketing h4{
+        margin-left: 900px;
+        margin-top: -20px;
+    }
+    .input11{
+        width: 380px;
+        margin-left: 15px;
+    }
+    .input22{
+        width: 200px;
+        margin-left: 15px;
+    }
+    .alltransaction{
+        width: 1160px;
+        /* height: 300px; */
+        margin-left: 270px;
+        background-color: white;
+    }
+}

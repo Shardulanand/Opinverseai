@@ -1,0 +1,56 @@
+{% extends 'admin_base.html' %}
+{% load static %}
+{% block body %}
+{% block content %}
+<div class="main-content">
+
+    <div class="page-content">
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">KYC LIST CLIMA</h4>
+
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">ADMIN PANEL</a></li>
+                                <li class="breadcrumb-item active">Kyc List</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- end page title -->
+            <div class='table-responsive'>
+                <table class="table table-info table-striped table-nowrap">
+                    <tr>
+                        <th scope="col">User Id</th>
+                        <th scope="col">Adhaar No.</th>
+                        <th scope="col">Pan Card No.</th>
+                        <th scope="col">Bank Name</th>
+                        <th scope="col">Bank Acc.No</th>
+                        <th scope="col">IFSC</th>
+                        <th scope="col">Acc. Holder Name</th>
+                        <th scope="col">Gst No.</th>
+                        <th scope="col">Business Licence</th>
+                    </tr>
+                        {% for i in kycinstclima %}
+                        <tr>
+                        <td>{{i.clima_user_id_no}}</td>
+                        <td>{{i.clima_Aadhar_card_no}}</td>
+                        <td>{{i.clima_Pan_card_no}}</td>
+                        <td>{{i.clima_Bank_Name}}</td>
+                        <td>{{i.clima_Bank_account_number}}</td>
+                        <td>{{i.clima_user_IFSC_code}}</td>
+                        <td>{{i.clima_Bank_account_holder_name}}</td>
+                        <td>{{i.clima_gst_no}}</td>
+                        <td>{{i.clima_company_incorp_img}}</td>
+                        </tr>
+                        {% endfor %}
+            </table>
+{% endblock content %}
+{% endblock body %}

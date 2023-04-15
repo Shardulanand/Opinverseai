@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+{% block content %}
+<div class="main-content">
+
+    <div class="page-content">
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Wallet Dashboard</h4>
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dima</a></li>
+                                <li class="breadcrumb-item active">Wallet History</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">All Transaction</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class='table-responsive'>
+                            <table id="alternative-pagination" class="table nowrap dt-responsive align-middle table-hover table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>SR No.</th>
+                                        <th>User Id</th>
+                                        <th>Date</th>
+                                        <th>Payout Type</th>
+                                        <th>Payout Amount</th>
+                                        <th>UTR No.</th>
+                                        <th>Remarks</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/btc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Bitcoin (BTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$47,071.60</td>
+                                        <td>BTC/USD</td>
+                                        <td>$28,722.76</td>
+                                        <td>$68,789.63</td>
+                                        <td>$888,411,910</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.50%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">View Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/eth.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Ethereum (ETH)</a>
+                                            </div>
+                                        </td>
+                                        <td>$3,813.14</td>
+                                        <td>ETH/USDT</td>
+                                        <td>$4,036.24</td>
+                                        <td>$3,588.14</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-danger fs-13 mb-0"><i class="mdi mdi-trending-down align-middle me-1"></i>0.42%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">View Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/ltc.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Litecoin (LTC)</a>
+                                            </div>
+                                        </td>
+                                        <td>$149.65</td>
+                                        <td>LTC/USDT</td>
+                                        <td>$412.96</td>
+                                        <td>$104.33</td>
+                                        <td>$314,520,675</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>0.89%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">View Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>
+                                            <div class="d-flex align-items-center fw-medium">
+                                                <img src="assets/images/svg/crypto-icons/xmr.svg" alt="" class="avatar-xxs me-2">
+                                                <a href="javascript:void(0);" class="currency_name">Monero (XMR)</a>
+                                            </div>
+                                        </td>
+                                        <td>$17,491.16</td>
+                                        <td>XRM/USDT</td>
+                                        <td>$31,578.35</td>
+                                        <td>$8691.75</td>
+                                        <td>$9,847,327</td>
+                                        <td><h6 class="text-success fs-13 mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>1.92%</h6></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">View Now</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="btn btn-sm btn-soft-info">View Now</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div>
+{% endblock content %}
+{% endblock body %}

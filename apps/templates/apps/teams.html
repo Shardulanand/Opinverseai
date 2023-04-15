@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+{% block content %}
+<link href="{% static 'css/team.css' %}" rel="stylesheet" type="text/css" />
+<div class="main-content">
+
+    <div class="page-content">
+        <div class="container-fluid">
+
+            <!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0">Team</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Dima</a></li>
+                    <li class="breadcrumb-item active">Team</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="card">
+    <div class="card-body">
+        <div class="row g-2">
+            <div class="col-sm-4">
+                <div class="search-box">
+                    <input type="text" class="form-control" id="searchMemberList" placeholder="Search for name or designation...">
+                    <i class="ri-search-line search-icon"></i>
+                </div>
+            </div>
+            <!--end col-->
+            <div class="col-sm-auto ms-auto">
+                <div class="list-grid-nav hstack gap-1">
+                    <button type="button" id="grid-view-button" class="btn btn-soft-info nav-link btn-icon fs-14 active filter-button"><i class="ri-grid-fill"></i></button>
+                    <button type="button" id="list-view-button" class="btn btn-soft-info nav-link  btn-icon fs-14 filter-button"><i class="ri-list-unordered"></i></button>
+                    <button type="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-soft-info btn-icon fs-14"><i class="ri-more-2-fill"></i></button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                        <li><a class="dropdown-item" href="#">All</a></li>
+                        <li><a class="dropdown-item" href="#">Last Week</a></li>
+                        <li><a class="dropdown-item" href="#">Last Month</a></li>
+                        <li><a class="dropdown-item" href="#">Last Year</a></li>
+                    </ul>
+                    <button class="btn btn-success addMembers-modal" data-bs-toggle="modal" data-bs-target="#addmemberModal"><i class="ri-add-fill me-1 align-bottom"></i> Add Members</button>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+</div>
+<div class="card1">
+    <img src= {% static 'images/users/avatar-1.jpg' %}>
+    <h4>Pooja Mishra</h4>
+    <p>Copywriter</p>
+    <div class="projects">
+        <h2>225</h2>
+        <p>Projects</p>
+    </div>
+    <div class="task">
+        <h2>197</h2>
+        <p>Task</p>
+    </div>
+    <div class="links">
+        <a href="###"><i class="fa-brands fa-linkedin"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-facebook"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-youtube"></i></a>
+    </div><br><br>
+    <div class="d-grid gap-2" >
+        <button class="btn btn-primary" type="button">View Profile</button>
+    </div>
+</div>
+<div class="card2">
+    <img src= {% static 'images/users/avatar-2.jpg' %}>
+    <h4>Kanishk Tiwari</h4>
+    <p>Full Stack Developer</p>
+    <div class="projects">
+        <h2>352</h2>
+        <p>Projects</p>
+    </div>
+    <div class="task">
+        <h2>376</h2>
+        <p>Task</p>
+    </div>
+    <div class="links">
+        <a href="###"><i class="fa-brands fa-linkedin"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-facebook"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-youtube"></i></a>
+    </div><br><br>
+    <div class="d-grid gap-2" >
+        <button class="btn btn-primary" type="button">View Profile</button>
+    </div>
+</div>
+<div class="card3">
+    <img src= {% static 'images/users/avatar-3.jpg' %}>
+    <h4>Piyush Rai</h4>
+    <p>Project Manager</p>
+    <div class="projects">
+        <h2>164</h2>
+        <p>Projects</p>
+    </div>
+    <div class="task">
+        <h2>182</h2>
+        <p>Task</p>
+    </div>
+    <div class="links">
+        <a href="###"><i class="fa-brands fa-linkedin"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-facebook"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-youtube"></i></a>
+    </div><br><br>
+    <div class="d-grid gap-2" >
+        <button class="btn btn-primary" type="button">View Profile</button>
+    </div>
+</div>
+<div class="card4">
+    <img src= {% static 'images/users/avatar-4.jpg' %}>
+    <h4>Manju Srivastava</h4>
+    <p>UI/UX Designer</p>
+    <div class="projects">
+        <h2>241</h2>
+        <p>Projects</p>
+    </div>
+    <div class="task">
+        <h2>204</h2>
+        <p>Task</p>
+    </div>
+    <div class="links">
+        <a href="###"><i class="fa-brands fa-linkedin"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-facebook"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-youtube"></i></a>
+    </div><br><br>
+    <div class="d-grid gap-2" >
+        <button class="btn btn-primary" type="button">View Profile</button>
+    </div>
+</div>
+<div class="card5">
+    <img src= {% static 'images/users/avatar-3.jpg' %}>
+    <h4>Manu Malviya</h4>
+    <p>Team Leader and Web Developer</p>
+    <div class="projects">
+        <h2>201</h2>
+        <p>Projects</p>
+    </div>
+    <div class="task">
+        <h2>263</h2>
+        <p>Task</p>
+    </div>
+    <div class="links">
+        <a href="###"><i class="fa-brands fa-linkedin"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-facebook"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-youtube"></i></a>
+    </div><br><br>
+    <div class="d-grid gap-2" >
+        <button class="btn btn-primary" type="button">View Profile</button>
+    </div>
+</div>
+<div class="card6">
+    <img src= {% static 'images/users/avatar-6.jpg' %}>
+    <h4>Suchita Mishra</h4>
+    <p>backend Developer</p>
+    <div class="projects">
+        <h2>132</h2>
+        <p>Projects</p>
+    </div>
+    <div class="task">
+        <h2>147</h2>
+        <p>Task</p>
+    </div>
+    <div class="links">
+        <a href="###"><i class="fa-brands fa-linkedin"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-facebook"></i></a>&nbsp&nbsp&nbsp
+        <a href="###"><i class="fa-brands fa-youtube"></i></a>
+    </div><br><br>
+    <div class="d-grid gap-2" >
+        <button class="btn btn-primary" type="button">View Profile</button>
+    </div>
+</div>
+{% endblock content %}
+{% endblock body %}

@@ -1,0 +1,56 @@
+{% extends 'admin_base.html' %}
+{% load static %}
+{% block body %}
+{% block content %}
+<div class="main-content">
+
+    <div class="page-content">
+        <div class="container-fluid">
+
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">KYC LIST</h4>
+
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">ADMIN PANEL</a></li>
+                                <li class="breadcrumb-item active">Kyc List</li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- end page title -->
+            <div class='table-responsive'>
+            <table class="table table-info table-striped table-nowrap">
+                <tr>
+                    <th scope="col">User_id</th>
+                    <th scope="col">Adhaar No.</th>
+                    <th scope="col">Pan No.</th>
+                    <th scope="col">Bank Name</th>
+                    <th scope="col">Bank Acc. No</th>
+                    <th scope="col">IFSC Code</th>
+                    <th scope="col">Acc.Holder Name</th>
+                    <th scope="col">Adhaar Front</th>
+                    <th scope="col">Adhaar Back</th>
+                </tr>
+                    {% for i in kycinst %}
+                    <tr>
+                    <td>{{i.user_id_no}}</td>
+                    <td>{{i.Aadhar_card_no}}</td>
+                    <td>{{i.Pan_card_no}}</td>
+                    <td>{{i.Bank_Name}}</td>
+                    <td>{{i.Bank_account_number}}</td>
+                    <td>{{i.user_IFSC_code}}</td>
+                    <td>{{i.Bank_account_holder_name}}</td>
+                    <td>{{i.Aaadhar_front_img}}</td>
+                    <td>{{i.Aadhar_back_img}}</td>
+                    </tr>
+                    {% endfor %}
+        </table>
+{% endblock content %}
+{% endblock body %}
